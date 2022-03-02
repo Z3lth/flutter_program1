@@ -19,30 +19,33 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite Song?',
+      'questionText': 'How was your day?',
       'answers': [
-        {'text': 'Helena Beats', 'score': 10},
-        {'text': 'Feelings', 'score': 7},
-        {'text': 'bTs JunGcOok smth', 'score': 1},
-        {'text': 'MJ', 'score': 4},
+        {'text': 'Great', 'score': 10},
+        {'text': 'Average', 'score': 7},
+        {'text': 'Bad', 'score': 4},
+        {'text': 'Absolutely fcking Tragic', 'score': 1},
       ]
     },
     {
-      'questionText': 'What\'s your favorite Book?',
+      'questionText': 'What was the best/worst thing that happened today?',
       'answers': [
-        {'text': 'All The Bright Places', 'score': 7},
-        {'text': 'Divergent Trilogy', 'score': 4},
-        {'text': 'Looking for Alaska', 'score': 10},
-        {'text': 'HaRrY pOTteR', 'score': 1},
+        {
+          'text': 'Someone asked me out (didn\'t happen, dont lie) ',
+          'score': 10
+        },
+        {'text': 'Got free Pitzah', 'score': 7},
+        {'text': 'Fell on my face', 'score': 4},
+        {'text': 'Lost my most valuable thing', 'score': 1},
       ]
     },
     {
-      'questionText': 'What\'s your favorite Game?',
+      'questionText': 'On the scale of 1-10, How productive was your day?',
       'answers': [
-        {'text': 'Destiny', 'score': 10},
-        {'text': 'vAlOrAnT', 'score': 1},
-        {'text': 'Forza Horizon', 'score': 4},
-        {'text': 'Uncharted', 'score': 7},
+        {'text': '8-10', 'score': 10},
+        {'text': '5-7', 'score': 7},
+        {'text': '2-4', 'score': 4},
+        {'text': 'Swipe the pain away with instagram reels', 'score': 1},
       ]
     },
   ];
@@ -79,7 +82,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Color(0xffAD7FFB),
-          title: Text('\'Yes, I am judging you\' Quiz'),
+          title: Text('\ Idk some App\' Quiz'),
         ),
         backgroundColor: Color(0xffe8eaff),
         body: _questionIndex < _questions.length

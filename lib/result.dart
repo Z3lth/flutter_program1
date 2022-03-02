@@ -9,15 +9,15 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     String resultText;
     if (resultScore >= 30) {
-      resultText = 'A Gem (=★ω★=)ฅ';
+      resultText = 'Great (=★ω★=)ฅ';
     } else if (resultScore < 30 && resultScore >= 20) {
       resultText = 'Cool 〜(￣△￣〜) ';
     } else if (resultScore < 20 && resultScore >= 10) {
       resultText = 'umm Good ( ⋂‿⋂\’) ';
     } else if (resultScore < 10 && resultScore > 4) {
-      resultText = 'lol normie (￣︶ ￣ ;)';
+      resultText = 'Its okay,happens (￣︶ ￣ ;)';
     } else {
-      resultText = 'NO. Nononononononope';
+      resultText = '*sigh* Tragic (´・ω・｀) ';
     }
 
     return resultText;
