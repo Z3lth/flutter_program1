@@ -33,14 +33,14 @@ class Result extends StatelessWidget {
             style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
-                color: Color(0xffF594B7)),
+                color: Color(0xff219F94)),
             textAlign: TextAlign.center,
           ),
           RaisedButton(
             child: Text('Restart Quiz'),
             textColor: Colors.white,
             onPressed: resetHandler,
-            color: Color(0xff92B2FD),
+            color: Color(0xff219F94),
           )
         ],
       ),

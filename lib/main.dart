@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
         {'text': '8-10', 'score': 10},
         {'text': '5-7', 'score': 7},
         {'text': '2-4', 'score': 4},
-        {'text': 'Swipe the pain away with instagram reels', 'score': 1},
+        {'text': '1 Swipe the pain away with instagram reels', 'score': 1},
       ]
     },
   ];
@@ -81,10 +81,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0xffAD7FFB),
-          title: Text('\ Idk some App\' Quiz'),
+          backgroundColor: Color(0xff219F94),
+          title: Text('Idk some App'),
         ),
-        backgroundColor: Color(0xffe8eaff),
+        backgroundColor: Color(0xffFBF8F1),
         body: _questionIndex < _questions.length
             ? Quiz(
                 answerQuestion: _answerQuestion,
