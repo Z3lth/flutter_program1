@@ -82,7 +82,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Color(0xff219F94),
-          title: Text('Idk some App'),
+          title: Text('How was your day survey'),
         ),
         backgroundColor: Color(0xffFBF8F1),
         body: _questionIndex < _questions.length
